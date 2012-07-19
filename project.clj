@@ -1,4 +1,4 @@
-(defproject quoin "0.1.0-SNAPSHOT"
+(defproject quoin "0.1.0"
   :description "Template engine support and utilities"
   :url "http://github.com/davidsantiago/quoin"
   :license {:name "Eclipse Public License"
