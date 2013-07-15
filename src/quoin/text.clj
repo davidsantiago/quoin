@@ -16,6 +16,8 @@
             \< (.append sb "&lt;")
             \> (.append sb "&gt;")
             \" (.append sb "&quot;")
+            \™ (.append sb "&trade;")
+            \é (.append sb "&eacute;")
             (.append sb c))
           (recur (inc idx)))))))
 
