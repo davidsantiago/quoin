@@ -11,7 +11,7 @@ general interest, but if you see something useful, go for it.
 Put the following in your project.clj:
 
 ```clojure
-[quoin "0.1.0"]
+[quoin "0.1.1"]
 ```
 
 ## License
