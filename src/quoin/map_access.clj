@@ -26,10 +26,7 @@
   ([map key]
      (get-named map key nil))
   ([map key not-found]
-     (or (get map key)
-         (get map (keyword key))
-         (get map (name key))
-         not-found)))
+    (get map (contains-named? map key) not-found)))
 
 (defn assoc-named
   "Just like clojure.core/assoc, except considers keys that are
