@@ -21,6 +21,10 @@
          (get-named {"test" "success"} :test)))
   (is (= "success"
          (get-named {:test "success"} :test)))
+  (is (= "a"
+         (get-named {:test "a" "test" "b"} :test)))
+  (is (= nil
+         (get-named {:test nil "test" "b"} :test)))
   (is (= "success"
          (get-named {:test "success"} "test")))
   (is (= "failure"
